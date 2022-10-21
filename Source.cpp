@@ -55,7 +55,7 @@ void multi_matrix(const char* file_a, const char* file_b)
 
 	std::cout << "Time: " << duration.count() << " s" << endl;
 
-	ofstream of("matrix_C.txt");
+	ofstream of("matrix_C_1000.txt");
 	if (of.is_open())
 	{
 		of << size_matrix << endl;
@@ -88,6 +88,6 @@ void multi_matrix(const char* file_a, const char* file_b)
 
 int main()
 {
-	multi_matrix("matrix_A.txt", "matrix_B.txt");
+	multi_matrix("matrix_A_1000.txt", "matrix_B_1000.txt");
 	return 0;
 }
