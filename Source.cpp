@@ -39,7 +39,7 @@ void create_matrix(const char* file_name, int size_matrix)
 
 int main()
 {
-	create_matrix("matrix_A.txt", 2);
-	create_matrix("matrix_B.txt", 2);
+	create_matrix("matrix_A_1100.txt", 1100);
+	create_matrix("matrix_B_1100.txt", 1100);
 	return 0;
 }
